@@ -1,5 +1,5 @@
 program L7;
-uses SysUtils;
+uses SysUtils, L7, Unit1;
 const CRLF=#13;
 function Chomp(s: string): string;
 var
